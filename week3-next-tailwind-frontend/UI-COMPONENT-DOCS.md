@@ -40,3 +40,4 @@ The usage examples of each component:
 <Modal isOpen={true} title="Hello" onClose={fn}>Body</Modal>
 ```
 
+---
