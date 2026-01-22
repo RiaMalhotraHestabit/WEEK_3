@@ -13,11 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Next.js Dashboard",
-  description: "Day 3 Routing and Layout System",
-};
-
 export default function RootLayout({
   children,
 }: {
