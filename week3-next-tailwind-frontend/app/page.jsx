@@ -1,5 +1,6 @@
-import Link from "next/link";
+
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Landing Page",
@@ -11,7 +12,6 @@ export default function HomePage() {
   return (
     <main className="flex flex-col min-h-screen bg-gray-50">
 
-      {/* Main Content */}
       <div className="flex-grow">
 
         {/* Hero Section */}
@@ -33,10 +33,16 @@ export default function HomePage() {
           />
 
           <div className="flex gap-4 mt-6 flex-wrap justify-center">
-            <Link href="/about" className="px-6 py-2 text-xl text-blue-600 hover:text-blue-800 hover:underline">
+            <Link
+              href="/about"
+              className="px-6 py-2 text-xl text-blue-600 hover:text-blue-800 hover:underline"
+            >
               About Us
             </Link>
-            <Link href="/dashboard" className="px-6 py-2 text-xl text-blue-600 hover:text-blue-800 hover:underline">
+            <Link
+              href="/login"
+              className="px-6 py-2 text-xl text-white bg-blue-600 hover:bg-blue-700 rounded-md"
+            >
               Go to Dashboard
             </Link>
           </div>
