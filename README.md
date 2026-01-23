@@ -10,43 +10,51 @@ A fully responsive, multi-page SaaS-style frontend application built using **Nex
 
 ## Live Features Overview
 
+
 ### Pages Implemented
 
-* `/app` - Landing Page
+
+
+### 1. `/app` - Landing Page
 
 **screenshot**
 
-  ![Landing Page](screenshots/Landing-page.png)
+![Landing Page](week3-next-tailwind-frontend/screenshots/landing-page.png)
 
-* `/about` - About Page
 
-**screenshot**
-
-  ![About Page](screenshots/About.png)
-
-* `/login` — Static login form (UI only)
+### 2. `/about` - About Page
 
 **screenshot**
 
-![Login Page](screenshots/login.png)
+  ![About Page](week3-next-tailwind-frontend/screenshots/about.png)
+  
 
-* `/dashboard` — Analytics dashboard with cards, charts, and widgets
+### 3. `/login` — Static login form (UI only)
+
+**screenshot**
+
+![Login Page](week3-next-tailwind-frontend/screenshots/login.png)
+
+
+### 4. `/dashboard` — Analytics dashboard with cards, charts, and widgets
   
 **screenshot**
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](week3-next-tailwind-frontend/screenshots/dashboard.png)
 
-* `/dashboard/users` — Users listing with mocked data
+
+### 5. `/dashboard/users` — Users listing with mocked data
   
 **screenshot**
 
-![Users Page](screenshots/users-page.png)
+![Users Page](week3-next-tailwind-frontend/screenshots/user-page.png)
 
-* `/dashboard/profile` — User profile page
+
+### 6. `/dashboard/profile` — User profile page
   
 **screenshot**
 
-![Profile Page](screenshots/profile-page.png)
+![Profile Page](week3-next-tailwind-frontend/screenshots/profile-page.png)
 
 All dashboard pages share a common layout and sidebar.
 
